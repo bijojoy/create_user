@@ -1,0 +1,9 @@
+---
+# tasks file for create_user
+- name: Create app user {{ app_user }}
+  user:
+    name: "{{ app_user }}"
+    password: "{{ app_user_pass }}"
+    state: present
+    createhome: yes
+    home: /home/{{ app_user }}

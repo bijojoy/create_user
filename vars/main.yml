@@ -1,0 +1,4 @@
+---
+# vars file for create_user
+app_user: "app-user"
+app_user_pass : "app-user"
